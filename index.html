@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Muhammad Shoaib Rizwan - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+            Muhammad Shoaib Rizwan
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" 
+            alt="https://icons8.com/icon/124377/circled-envelope"/>
+          muhammadshoaibrizwan@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" 
+          alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +92 3400750110
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div id="fimg">
+        <img src="html_finalprojimages/Passport-size.jpg" alt=""
+        class="profile_image"/>
+      </div>
+
+      <div id="okok">
+          <h1>
+            Hi, I'm Muhammad Shoaib Rizwan!  <img src="https://img.icons8.com/?size=512&id=17672&format=png" alt="" width= "60px"/>
+          </h1>
+          <p>
+            I'm a passionate <b> MERN stack </b> developer, skilled in crafting engaging and dynamic web applications that seamlessly blend the power of MongoDB, Express.js, React.js, and Node.js. With a solid foundation in both frontend and backend development, 
+            I bring life to user interfaces using React.js while architecting robust server-side solutions through Node.js
+            I have worked at <b> Systems Limited</b> as an intern for 2 months in Cloud & Infrastructure services | DevOps Department 
+            as a DevOps Engineer.
+        </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png" alt=""/>
+          <h5>HTML5</h5>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg" alt=""/>
+          <h5>JavaScript</h5>
+          <p>1 years experience</p>
+        </div>  
+        <div class="skill">
+          <img src="html_finalprojimages/java.png" alt=""/>
+          <h5>Java</h5>
+          <p>6 month experience</p>
+        </div>  
+        <div class="skill">
+          <img src="html_finalprojimages/react.png" alt=""/>
+          <h5>React</h5>
+          <p>1 years experience</p>
+        </div>  
+        <div class="skill">
+          <img src="html_finalprojimages/node.png" alt=""/>
+          <h5>Node</h5>
+          <p>1 years experience</p>
+        </div>  
+        <div class="skill">
+          <img src="html_finalprojimages/CSS3.png" alt=""/>
+          <h5>CSS3</h5>
+          <p>1 years experience</p>
+        </div>  
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>E-Commerce Website</h3>
+            <ul>
+              <li>Developed a secure website using React and Node</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Car Booking Website</h3>
+            <ul>
+              <li>Developed a secure website using HTML5, CSS3 and JavaScript</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Food Recipe App</h3>
+            <ul>
+              <li>Developed a secure app using React-native and Node </li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I wholeheartedly recommend Shoaib as an exceptional software engineer. During our time working together, I have 
+          been consistently impressed by his deep technical knowledge, meticulous problem-solving skills, and strong work
+          ethic. 
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I am thrilled to recommend Shoaib for his outstanding contributions as a MERN stack developer. His expertise
+          in MongoDB, Express.js, React.js, and Node.js is truly impressive, enabling him to architect comprehensive 
+          web applications from scratch.  
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          It is with great pleasure that I recommend Shoaib for his remarkable skills as a MERN stack developer.  
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button type="button" id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg" alt=""/>
+      <h3>Thank you! your recommendation has been added</h3>
+      <button type="button" onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
